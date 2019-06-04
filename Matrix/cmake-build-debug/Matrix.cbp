@@ -8,147 +8,153 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug"/>
+				<Option working_dir="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug"/>
+				<Option working_dir="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Matrix">
-				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Matrix" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug"/>
+				<Option output="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug/Matrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/."/>
-					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/."/>
+					<Add directory="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 Matrix"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 Matrix"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Matrix/fast">
-				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Matrix" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug"/>
+				<Option output="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug/Matrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/."/>
-					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/."/>
+					<Add directory="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 Matrix/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 Matrix/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/george/Documents/ECS_36B/Class\ notes/MatrixWithExceptions/Matrix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/CMakeLists.txt">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/CMakeLists.txt">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/DimensionMismatchError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/DimensionMismatchError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/DivideByZeroError.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/DivideByZeroError.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/DivideByZeroError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/DivideByZeroError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixDimensionMismatchError.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/MatrixDimensionMismatchError.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixDimensionMismatchError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/MatrixDimensionMismatchError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixError.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/MatrixError.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/MatrixError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixInnerDimensionMismatchError.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/MatrixInnerDimensionMismatchError.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixInnerDimensionMismatchError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/MatrixInnerDimensionMismatchError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixOutOfBoundsError.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/MatrixOutOfBoundsError.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixOutOfBoundsError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/MatrixOutOfBoundsError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/OutOfBoundsError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/OutOfBoundsError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/VectorDimensionMismatchError.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/VectorDimensionMismatchError.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/VectorDimensionMismatchError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/VectorDimensionMismatchError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/VectorOutOfBoundsError.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/VectorOutOfBoundsError.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/VectorOutOfBoundsError.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/VectorOutOfBoundsError.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Matrix.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Matrix.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Matrix.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Matrix.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/MatrixTypeDefs.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/MatrixTypeDefs.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Vector.cpp">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Vector.cpp">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Vector.h">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Vector.h">
 			<Option target="Matrix"/>
 		</Unit>
-		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/CMakeLists.txt">
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

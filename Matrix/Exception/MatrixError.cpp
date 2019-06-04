@@ -3,3 +3,7 @@
 //
 
 #include "MatrixError.h"
+
+const char *Matrix::MatrixError::what() const noexcept {
+    return errorString.c_str();
+}

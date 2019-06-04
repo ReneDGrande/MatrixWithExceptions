@@ -1,3 +1,10 @@
+//
+// Created by mfbut on 5/2/2019.
+//
+
+
+#include "Exception/VectorDimensionMismatchError.h"
+#include "DivideByZeroError.h"
 #include "Vector.h"
 #include "Matrix.h"
 
@@ -30,7 +37,7 @@ Matrix::SizeType Matrix::Vector::size() const {
 
 Matrix::Matrix Matrix::Vector::asRowMatrix() const {
     std::vector<Vector> vectorMatrix;
-    vectorMatrix.push_back(contents);
+    vectorMatrix.emplace_back(contents);
     return Matrix(vectorMatrix);
 
 }
@@ -178,15 +185,21 @@ Matrix::Vector& Matrix::operator*=(Vector &vector, const Matrix::ValueType &scal
 //scalar and vector division
 
 Matrix::Vector Matrix::operator/(const Vector &vector, const Matrix::ValueType &scalar) {
-    Vector copy(vector);
+    if(scalar == 0){
+        throw MAKE_DIVIDE_BY_ZERO_ERROR();
+    } else{
+        Vector copy(vector);
 
-    for(int i = 0; i != vector.size(); i++){
-        copy.at(i) /= scalar;
+        for(int i = 0; i != vector.size(); i++){
+            copy.at(i) /= scalar;
+        }
+        return copy;
     }
-    return copy;
 }
 
 Matrix::Vector &Matrix::operator/=(Vector &vector, const Matrix::ValueType &scalar) {
+    if(scalar == 0)
+        throw MAKE_DIVIDE_BY_ZERO_ERROR();
     for(int i = 0; i != vector.size(); i++){
         vector.at(i) /= scalar;
     }
@@ -198,6 +211,9 @@ Matrix::Vector &Matrix::operator/=(Vector &vector, const Matrix::ValueType &scal
 
 // VECTOR ADDITION
 Matrix::Vector Matrix::operator+(const Vector &lhs, const Vector &rhs) {
+    if(lhs.size() != rhs.size()) {
+        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+    }
     Vector vectorPlusVector(lhs.size());
     for(int i = 0; i != vectorPlusVector.size(); i++){
         vectorPlusVector.at(i) = lhs.at(i) + rhs.at(i);
@@ -206,6 +222,9 @@ Matrix::Vector Matrix::operator+(const Vector &lhs, const Vector &rhs) {
 }
 
 Matrix::Vector& Matrix::operator+=(Vector &lhs, const Vector &rhs) {
+    if(lhs.size() != rhs.size()) {
+        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+    }
     for(int i = 0; i != lhs.size(); i++){
         lhs.at(i) += rhs.at(i);
     }
@@ -215,6 +234,9 @@ Matrix::Vector& Matrix::operator+=(Vector &lhs, const Vector &rhs) {
 // VECTOR SUBTRACTION
 
 Matrix::Vector Matrix::operator-(const Vector &lhs, const Vector &rhs) {
+    if(lhs.size() != rhs.size()) {
+        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+    }
     Vector vectorMinusVector(lhs.size());
     for(int i = 0; i != vectorMinusVector.size(); i++){
         vectorMinusVector.at(i) = lhs.at(i) - rhs.at(i);
@@ -223,6 +245,9 @@ Matrix::Vector Matrix::operator-(const Vector &lhs, const Vector &rhs) {
 }
 
 Matrix::Vector& Matrix::operator-=(Vector &lhs, const Vector &rhs) {
+    if(lhs.size() != rhs.size()) {
+        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+    }
     for(int i = 0; i != lhs.size(); i++){
         lhs.at(i) -= rhs.at(i);
     }
@@ -230,6 +255,9 @@ Matrix::Vector& Matrix::operator-=(Vector &lhs, const Vector &rhs) {
 }
 
 Matrix::ValueType Matrix::operator*(const Vector &lhs, const Vector &rhs) {
+    if(lhs.size() != rhs.size()) {
+        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+    }
     ValueType dotProduct = 0;
     for(int i = 0; i != lhs.size(); i++){
         dotProduct += (lhs.at(i) * rhs.at(i));
@@ -238,6 +266,9 @@ Matrix::ValueType Matrix::operator*(const Vector &lhs, const Vector &rhs) {
 }
 
 Matrix::ValueType Matrix::operator*=(Vector &lhs, const Vector &rhs) {
+    if(lhs.size() != rhs.size()) {
+        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+    }
     ValueType dotProduct = 0;
     for(int i = 0; i != lhs.size(); i++){
         dotProduct += (lhs.at(i) * rhs.at(i));
