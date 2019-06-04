@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Matrix"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Matrix\;CMake Files\Matrix\Exception\;CMake Files\tests\;CMake Files\tests\Vector\;CMake Files\tests\Matrices\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixClass">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/libMatrixClass.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Makefile&quot;  VERBOSE=1 MatrixClass"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixClass/fast">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/libMatrixClass.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Makefile&quot;  VERBOSE=1 MatrixClass/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixException">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/libMatrixException.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/Makefile&quot;  VERBOSE=1 MatrixException"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MatrixException/fast">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/libMatrixException.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/Makefile&quot;  VERBOSE=1 MatrixException/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/Matrix/Exception/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tester">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Tester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUT_VECTOR_DIR=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Inputs&quot;"/>
+					<Add option="-DSOL_VECTOR_SCALAR_ADD=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/Plus&quot;"/>
+					<Add option="-DSOL_VECTOR_SCALAR_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/Minus&quot;"/>
+					<Add option="-DSOL_VECTOR_SCALAR_MULTIPLY=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/Multiply&quot;"/>
+					<Add option="-DSOL_VECTOR_SCALAR_DIVIDE=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/Divide&quot;"/>
+					<Add option="-DSOL_SCALAR_VECTOR_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/ScalarMinus&quot;"/>
+					<Add option="-DSOL_VECTOR_VECTOR_ADD=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndVector/Plus&quot;"/>
+					<Add option="-DSOL_VECTOR_VECTOR_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndVector/Minus&quot;"/>
+					<Add option="-DSOL_VECTOR_VECTOR_MULTIPLY=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndVector/Multiply&quot;"/>
+					<Add option="-DINPUT_MATRIX_DIR=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Inputs&quot;"/>
+					<Add option="-DSOL_MATRIX_SCALAR_ADD=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/Plus&quot;"/>
+					<Add option="-DSOL_MATRIX_SCALAR_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/Minus&quot;"/>
+					<Add option="-DSOL_MATRIX_SCALAR_MULTIPLY=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/Multiply&quot;"/>
+					<Add option="-DSOL_MATRIX_SCALAR_DIVIDE=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/Divide&quot;"/>
+					<Add option="-DSOL_SCALAR_MATRIX_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/ScalarMinus&quot;"/>
+					<Add option="-DSOL_MATRIX_MATRIX_ADD=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndMatrix/Plus&quot;"/>
+					<Add option="-DSOL_MATRIX_MATRIX_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndMatrix/Minus&quot;"/>
+					<Add option="-DSOL_MATRIX_MATRIX_MULTIPLY=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndMatrix/Multiply&quot;"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/.."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/.."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Tester"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tester/fast">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Tester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DINPUT_VECTOR_DIR=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Inputs&quot;"/>
+					<Add option="-DSOL_VECTOR_SCALAR_ADD=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/Plus&quot;"/>
+					<Add option="-DSOL_VECTOR_SCALAR_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/Minus&quot;"/>
+					<Add option="-DSOL_VECTOR_SCALAR_MULTIPLY=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/Multiply&quot;"/>
+					<Add option="-DSOL_VECTOR_SCALAR_DIVIDE=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/Divide&quot;"/>
+					<Add option="-DSOL_SCALAR_VECTOR_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndScalar/ScalarMinus&quot;"/>
+					<Add option="-DSOL_VECTOR_VECTOR_ADD=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndVector/Plus&quot;"/>
+					<Add option="-DSOL_VECTOR_VECTOR_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndVector/Minus&quot;"/>
+					<Add option="-DSOL_VECTOR_VECTOR_MULTIPLY=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/Answers/VectorAndVector/Multiply&quot;"/>
+					<Add option="-DINPUT_MATRIX_DIR=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Inputs&quot;"/>
+					<Add option="-DSOL_MATRIX_SCALAR_ADD=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/Plus&quot;"/>
+					<Add option="-DSOL_MATRIX_SCALAR_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/Minus&quot;"/>
+					<Add option="-DSOL_MATRIX_SCALAR_MULTIPLY=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/Multiply&quot;"/>
+					<Add option="-DSOL_MATRIX_SCALAR_DIVIDE=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/Divide&quot;"/>
+					<Add option="-DSOL_SCALAR_MATRIX_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndScalar/ScalarMinus&quot;"/>
+					<Add option="-DSOL_MATRIX_MATRIX_ADD=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndMatrix/Plus&quot;"/>
+					<Add option="-DSOL_MATRIX_MATRIX_MINUS=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndMatrix/Minus&quot;"/>
+					<Add option="-DSOL_MATRIX_MATRIX_MULTIPLY=&quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/Answers/MatrixAndMatrix/Multiply&quot;"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/.."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/.."/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 Tester/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/DimensionMismatchError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/DivideByZeroError.cpp">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/DivideByZeroError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixDimensionMismatchError.cpp">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixDimensionMismatchError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixError.cpp">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixInnerDimensionMismatchError.cpp">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixInnerDimensionMismatchError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixOutOfBoundsError.cpp">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/MatrixOutOfBoundsError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/OutOfBoundsError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/VectorDimensionMismatchError.cpp">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/VectorDimensionMismatchError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/VectorOutOfBoundsError.cpp">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/VectorOutOfBoundsError.h">
+			<Option target="MatrixException"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Matrix.cpp">
+			<Option target="MatrixClass"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Matrix.h">
+			<Option target="MatrixClass"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/MatrixTypeDefs.h">
+			<Option target="MatrixClass"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Vector.cpp">
+			<Option target="MatrixClass"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Vector.h">
+			<Option target="MatrixClass"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/ConstructorTests.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/MemberTests.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/TestMatrix.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/TestMatrix.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/TestMatrixAndMatrix.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/TestMatrixAndMatrix.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/TestMatrixAndScalar.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/TestMatrixAndScalar.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/TestMatrixExceptions.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/TestMatrixExceptions.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/ObjectObjectTestCase.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/ObjectObjectTestCase.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/ObjectScalarTestCase.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/ObjectScalarTestCase.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/ConstructorTests.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/MemberTests.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/TestVector.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/TestVector.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/TestVectorAndScalar.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/TestVectorAndScalar.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/TestVectorAndVector.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/TestVectorAndVector.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/TestVectorExceptions.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/TestVectorExceptions.h">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/main.cpp">
+			<Option target="Tester"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Matrix\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Matrix\Exception\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\Vector\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\Matrices\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

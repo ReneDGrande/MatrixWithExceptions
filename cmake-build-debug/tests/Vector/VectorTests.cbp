@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VectorTests"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Matrix\;CMake Files\Matrix\Exception\;CMake Files\tests\;CMake Files\tests\Vector\;CMake Files\tests\Matrices\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Vector"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Vector/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Vector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/tests/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Matrix\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/Matrix/Exception/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Matrix\Exception\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Vector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\Vector\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/tests/Matrices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\Matrices\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/renegrande2106/Downloads/MatrixWithExceptions/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

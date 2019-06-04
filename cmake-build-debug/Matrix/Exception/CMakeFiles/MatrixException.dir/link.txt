@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libMatrixException.a  CMakeFiles/MatrixException.dir/VectorOutOfBoundsError.cpp.o CMakeFiles/MatrixException.dir/MatrixOutOfBoundsError.cpp.o CMakeFiles/MatrixException.dir/MatrixError.cpp.o CMakeFiles/MatrixException.dir/VectorDimensionMismatchError.cpp.o CMakeFiles/MatrixException.dir/MatrixDimensionMismatchError.cpp.o CMakeFiles/MatrixException.dir/MatrixInnerDimensionMismatchError.cpp.o CMakeFiles/MatrixException.dir/DivideByZeroError.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libMatrixException.a
