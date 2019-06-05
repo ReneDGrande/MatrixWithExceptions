@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Matrix.dir/Exception/VectorOutOfBoundsError.cpp.o"
   "CMakeFiles/Matrix.dir/Matrix.cpp.o"
   "CMakeFiles/Matrix.dir/Vector.cpp.o"
+  "CMakeFiles/Matrix.dir/main.cpp.o"
   "Matrix.pdb"
   "Matrix"
 )

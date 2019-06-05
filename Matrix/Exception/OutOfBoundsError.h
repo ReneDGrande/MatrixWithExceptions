@@ -12,11 +12,6 @@ namespace Matrix {
 
   //Should inherit from MatrixError
   class OutOfBoundsError : public MatrixError {
-  public :
-      //void catchOutOfBoundsError();
-        //OutOfBoundsError();
-        //~OutOfBoundsError() = default;
-
 
   };
 }

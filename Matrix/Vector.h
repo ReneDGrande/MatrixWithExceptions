@@ -34,6 +34,8 @@ namespace Matrix {
     virtual ~Vector() = default;
 
     SizeType size() const;
+    Vector& operator=(const Vector& rhs);
+    void resize(int size);
 
     //conversion to matrix functions
 

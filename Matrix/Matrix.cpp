@@ -1,4 +1,5 @@
 #include <Exception/MatrixOutOfBoundsError.h>
+#include <Exception/MatrixDimensionMismatchError.h>
 #include "Vector.h"
 #include "Matrix.h"
 
@@ -54,7 +55,7 @@ Matrix::Matrix::Matrix(const std::vector<std::vector<Matrix::ValueType>> &conten
 }
 
 Matrix::Vector &Matrix::Matrix::at(int row) {
-    if (row < 0 || row >= getNumRows()-1){
+    if (row < 0 || row >= getNumRows()){
         throw MatrixOutOfBoundsError(*this, row);
     }
     else {
@@ -63,7 +64,7 @@ Matrix::Vector &Matrix::Matrix::at(int row) {
 }
 
 const Matrix::Vector &Matrix::Matrix::at(int row) const {
-    if (row < 0 || row >= getNumRows()-1){
+    if (row < 0 || row >= getNumRows()){
         throw MatrixOutOfBoundsError(*this, row);
     }
     else {
@@ -72,7 +73,7 @@ const Matrix::Vector &Matrix::Matrix::at(int row) const {
 }
 
 Matrix::Vector &Matrix::Matrix::operator[](int row) {
-    if (row < 0 || row >= getNumRows() - 1) {
+    if (row < 0 || row >= getNumRows()) {
         throw MatrixOutOfBoundsError(*this, row);
     } else {
         return at(row);
@@ -80,7 +81,7 @@ Matrix::Vector &Matrix::Matrix::operator[](int row) {
 }
 
 const Matrix::Vector &Matrix::Matrix::operator[](int row) const {
-    if (row < 0 || row >= getNumRows() - 1) {
+    if (row < 0 || row >= getNumRows() ) {
         throw MatrixOutOfBoundsError(*this, row);
     } else {
         return at(row);
@@ -218,6 +219,9 @@ Matrix::Matrix &Matrix::operator/=(Matrix &matrix, const Matrix::ValueType &scal
 // MATRIX ADDITION
 
 Matrix::Matrix Matrix::operator+(const Matrix &lhs, const Matrix &rhs) {
+    if((lhs.getNumRows(),lhs.getNumCols()) != (rhs.getNumRows(),rhs.getNumCols())) {
+        throw MAKE_MATRIX_DIMENSION_MISMATCH_ERROR();
+    }
     Matrix matrixPlusMatrix(lhs);
     for(int row = 0; row != matrixPlusMatrix.getNumRows(); row++) {
         for (int col = 0; col != matrixPlusMatrix.getNumCols(); col++) {

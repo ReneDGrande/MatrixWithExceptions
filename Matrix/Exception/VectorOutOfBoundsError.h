@@ -11,9 +11,8 @@
 //an element in the Vector is out of bounds
 namespace Matrix {
     class Vector;
-    class OutOfBoundsError;
   //should inherit from OutOfBoundsError
-  class VectorOutOfBoundsError {
+  class VectorOutOfBoundsError : public OutOfBoundsError{
   public:
       VectorOutOfBoundsError(const Vector &vec, int index);
 

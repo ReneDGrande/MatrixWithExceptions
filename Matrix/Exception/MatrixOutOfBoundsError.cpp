@@ -13,7 +13,7 @@ Matrix::MatrixOutOfBoundsError::MatrixOutOfBoundsError(const Matrix &matrix, int
 : numRows(matrix.getNumRows()), numCols(matrix.getNumCols()), indexAccessed(index){
     std::stringstream errorStream;
     errorStream << "Index out of bounds error"<< std::endl;
-    //error = errorStream.str();
+    errorString = errorStream.str();
 }
 
 

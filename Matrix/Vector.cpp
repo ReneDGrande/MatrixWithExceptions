@@ -50,7 +50,7 @@ Matrix::Matrix Matrix::Vector::asColMatrix() const {
     return Matrix(vectorMatrix);
 }
 
-Matrix::Vector &Matrix::Vector::operator=(const Vector& rhs) {
+Matrix::Vector&  Matrix::Vector::operator=(const Vector& rhs) {
     resize(rhs.size());
     for(int i = 0; i < size(); i++){
         at(i) = rhs.at(i);
@@ -185,25 +185,35 @@ Matrix::Vector& Matrix::operator*=(Vector &vector, const Matrix::ValueType &scal
 //scalar and vector division
 
 Matrix::Vector Matrix::operator/(const Vector &vector, const Matrix::ValueType &scalar) {
-    if(scalar == 0){
-        throw MAKE_DIVIDE_BY_ZERO_ERROR();
-    } else{
-        Vector copy(vector);
+    Vector copy(vector);
+    try {
+        if (scalar == 0)
+            throw MAKE_DIVIDE_BY_ZERO_ERROR();
 
-        for(int i = 0; i != vector.size(); i++){
+        for (int i = 0; i != vector.size(); i++) {
             copy.at(i) /= scalar;
         }
-        return copy;
+    }catch (DivideByZeroError& e){
+        std::cout << e.what() << std::endl;
     }
+        return copy;
+
 }
 
 Matrix::Vector &Matrix::operator/=(Vector &vector, const Matrix::ValueType &scalar) {
-    if(scalar == 0)
-        throw MAKE_DIVIDE_BY_ZERO_ERROR();
-    for(int i = 0; i != vector.size(); i++){
-        vector.at(i) /= scalar;
+    try {
+        if(scalar == 0)
+            throw MAKE_DIVIDE_BY_ZERO_ERROR();
+        for(int i = 0; i != vector.size(); i++){
+            vector.at(i) /= scalar;
+        }
+    }catch (DivideByZeroError& e){
+        std::cout << e.what() << std::endl;
     }
+
     return vector;
+
+
 }
 
 
@@ -211,70 +221,97 @@ Matrix::Vector &Matrix::operator/=(Vector &vector, const Matrix::ValueType &scal
 
 // VECTOR ADDITION
 Matrix::Vector Matrix::operator+(const Vector &lhs, const Vector &rhs) {
-    if(lhs.size() != rhs.size()) {
-        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
-    }
     Vector vectorPlusVector(lhs.size());
-    for(int i = 0; i != vectorPlusVector.size(); i++){
-        vectorPlusVector.at(i) = lhs.at(i) + rhs.at(i);
+    try {
+        if(lhs.size() != rhs.size()) {
+            throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+        }
+        for(int i = 0; i != vectorPlusVector.size(); i++){
+            vectorPlusVector.at(i) = lhs.at(i) + rhs.at(i);
+        }
+    }catch (VectorDimensionMismatchError& e){
+        std::cout << e.what() << std::endl;
     }
+
+
     return vectorPlusVector;
 }
 
 Matrix::Vector& Matrix::operator+=(Vector &lhs, const Vector &rhs) {
-    if(lhs.size() != rhs.size()) {
-        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+    try {
+        if (lhs.size() != rhs.size()) {
+            throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+        }
+        for (int i = 0; i != lhs.size(); i++) {
+            lhs.at(i) += rhs.at(i);
+        }
+    }catch (VectorDimensionMismatchError& e){
+        std::cout << e.what() << std::endl;
     }
-    for(int i = 0; i != lhs.size(); i++){
-        lhs.at(i) += rhs.at(i);
-    }
+
     return lhs;
 }
 
 // VECTOR SUBTRACTION
 
 Matrix::Vector Matrix::operator-(const Vector &lhs, const Vector &rhs) {
-    if(lhs.size() != rhs.size()) {
-        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
-    }
     Vector vectorMinusVector(lhs.size());
-    for(int i = 0; i != vectorMinusVector.size(); i++){
-        vectorMinusVector.at(i) = lhs.at(i) - rhs.at(i);
+    try {
+        if (lhs.size() != rhs.size()) {
+            throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+        }
+        for (int i = 0; i != vectorMinusVector.size(); i++) {
+            vectorMinusVector.at(i) = lhs.at(i) - rhs.at(i);
+        }
+    }catch (VectorDimensionMismatchError& e){
+        std::cout << e.what() << std::endl;
     }
     return vectorMinusVector;
 }
 
 Matrix::Vector& Matrix::operator-=(Vector &lhs, const Vector &rhs) {
-    if(lhs.size() != rhs.size()) {
-        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
-    }
-    for(int i = 0; i != lhs.size(); i++){
-        lhs.at(i) -= rhs.at(i);
+    try {
+        if (lhs.size() != rhs.size()) {
+            throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+        }
+        for (int i = 0; i != lhs.size(); i++) {
+            lhs.at(i) -= rhs.at(i);
+        }
+    }catch (VectorDimensionMismatchError& e) {
+        std::cout << e.what() << std::endl;
     }
     return lhs;
 }
 
 Matrix::ValueType Matrix::operator*(const Vector &lhs, const Vector &rhs) {
-    if(lhs.size() != rhs.size()) {
-        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
-    }
     ValueType dotProduct = 0;
-    for(int i = 0; i != lhs.size(); i++){
-        dotProduct += (lhs.at(i) * rhs.at(i));
+    try {
+        if (lhs.size() != rhs.size()) {
+            throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+        }
+        for (int i = 0; i != lhs.size(); i++) {
+            dotProduct += (lhs.at(i) * rhs.at(i));
+        }
+    }catch (VectorDimensionMismatchError& e) {
+        std::cout << e.what() << std::endl;
     }
     return dotProduct;
 }
 
 Matrix::ValueType Matrix::operator*=(Vector &lhs, const Vector &rhs) {
-    if(lhs.size() != rhs.size()) {
-        throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
-    }
     ValueType dotProduct = 0;
-    for(int i = 0; i != lhs.size(); i++){
-        dotProduct += (lhs.at(i) * rhs.at(i));
+    try {
+        if (lhs.size() != rhs.size()) {
+            throw MAKE_VECTOR_DIMENSION_MISMATCH_ERROR();
+        }
+        for (int i = 0; i != lhs.size(); i++) {
+            dotProduct += (lhs.at(i) * rhs.at(i));
+        }
+        Vector newLhs(1, dotProduct);
+        lhs = newLhs;
+    }catch (VectorDimensionMismatchError& e) {
+        std::cout << e.what() << std::endl;
     }
-    Vector newLhs(1, dotProduct);
-    lhs = newLhs;
     return lhs.at(0);
 }
 

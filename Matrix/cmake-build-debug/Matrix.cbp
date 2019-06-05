@@ -154,6 +154,9 @@
 		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Vector.h">
 			<Option target="Matrix"/>
 		</Unit>
+		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/main.cpp">
+			<Option target="Matrix"/>
+		</Unit>
 		<Unit filename="/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

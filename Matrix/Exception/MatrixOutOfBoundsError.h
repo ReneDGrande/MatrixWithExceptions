@@ -19,7 +19,6 @@ public :
 protected:
     int numRows, numCols, indexAccessed;
 public:
-    //std::string errorString;
     int getNumRows() const;
     int getNumCols() const;
     int getIndexAccessed()const;

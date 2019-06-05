@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Exception/VectorOutOfBoundsError.cpp" "/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/Exception/VectorOutOfBoundsError.cpp.o"
   "/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Matrix.cpp" "/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/Matrix.cpp.o"
   "/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/Vector.cpp" "/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/Vector.cpp.o"
+  "/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/main.cpp" "/home/george/Documents/ECS_36B/Class notes/MatrixWithExceptions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

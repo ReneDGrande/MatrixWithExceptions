@@ -28,4 +28,4 @@ add_executable(Matrix
         Matrix.h
         MatrixTypeDefs.h
         Vector.cpp
-        Vector.h)
+        Vector.h main.cpp)

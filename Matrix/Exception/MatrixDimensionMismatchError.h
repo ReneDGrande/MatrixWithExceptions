@@ -22,7 +22,7 @@ namespace Matrix {
         int line_number;
         const char* file_name;
     };
-#define MAKE_DIMENSION_MISMATCH_ERROR() MatrixDimensionMismatchError(__LINE__, __FILE__)
+#define MAKE_MATRIX_DIMENSION_MISMATCH_ERROR() MatrixDimensionMismatchError(__LINE__, __FILE__)
 
 }
 
